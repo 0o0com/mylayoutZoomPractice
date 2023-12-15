@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__date">
+      <p class="header__date-text">Среда, 13 окт</p>
+    </div>
+    <div class="header__analytics">
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Новые звонки <span class='header__analytics-text--green'>20 из 30 шт</span>
+        </p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--green"></div>
+        </div>
+      </div>
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Качество разговоров <span class='header__analytics-text--yellow'>40%</span>
+        </p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--yellow"></div>
+        </div>
+      </div>
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Конверсия в заказ <span class='header__analytics-text--red'>67%</span></p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--red"></div>
+        </div>
+      </div>
+    </div>
+    <div class="header__profile">
+      <div class="header__profile-search">
+        <img src="./images/search.svg" alt="search" class="header__profile-search-icon">
+      </div>
+      <div class="header__name-container">
+        <p class="header__name">ИП Сидорова Александра Михайловна</p>
+        <img src="./images/arrowdown.svg" alt="arrowdown" class="header__name-dropdown">
+      </div>
+      <div class="header__avatar-container">
+        <img src="./images/img.png" alt="avatar" class="header__avatar">
+        <img src="./images/arrowdown.svg" alt="arrowdown" class="header__avatar-dropdown">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <aside class='sidebar'>
+      <div class="sidebar__logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <nav class="sidebar__links">
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/timeline.svg" alt="timeline">
+          <p class='sidebar__text'>Итоги</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/orders.svg" alt="timeline">
+          <p class='sidebar__text'>Заказы</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/mail.svg" alt="timeline">
+          <p class='sidebar__text'>Сообщения</p>
+        </a>
+        <a href="#" class="sidebar__link sidebar__link--active">
+          <img src="./images/calls.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Звонки</p>
+          <div class="sidebar__link-circle"></div>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/people.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Контрагенты</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/documents.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Документы</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/dude.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Исполнители</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/briefcase.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Отчеты</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/library.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">База знаний</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/settings.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Настройки</p>
+        </a>
+      </nav>
+      <div class="sidebar__buttons">
+        <button class="sidebar__button">
+          <p class="sidebar__button-text">Добавить заказ</p>
+          <img src="./images/plus.svg" alt="" class="sidebar__button-icon">
+        </button>
+        <button class="sidebar__button">
+          <p class="sidebar__button-text">Оплата</p>
+          <img src="./images/alert.svg" alt="" class="sidebar__button-icon">
+        </button>
+      </div>
+    </aside>
+    <div class="main-container">
+      <div class="utilities">
+        <div class="utilities__balance">
+          <p class="utilities__balance-text">Баланс: <span class='utilities__balance-text--black'>272 ₽</span></p>
+          <button class="utilities__balance-button">
+            <img src="./images/plus-darkblue.svg" alt="plus" class="utilities__balance-button-icon">
+          </button>
+        </div>
+        <div class="utilities__calendar">
+          <div class="utilities__calendar-left">
+            <img src="./images/arrow-left.svg" alt="left" class="utilities__calendar-left-icon">
+          </div>
+          <div class="utilities__calendar-text-container">
+            <img src="./images/calendar.svg" alt="calendar" class="utilities__calendar-icon">
+            <p class="utilities__calendar-text">3 дня</p>
+          </div>
+          <div class="utilities__calendar-right">
+            <img src="./images/arrow-right.svg" alt="right" class="utilities__calendar-right-icon">
+          </div>
+        </div>
+      </div>
+      <div class="table">
+        <div class="table__filters">
+          <div class="table__filter-search">
+            <img src="./images/search.svg" alt="search" class="table__filter-search-icon">
+            <p class="table__filter-text">Поиск по звонкам</p>
+          </div>
+          <div class="table__filters-container">
+            <div class="table__filter table__filter-types">
+              <p class="table__filter-text">Все типы</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+            <div class="table__filter table__filter-employees">
+              <p class="table__filter-text">Все сотрудники</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+            <div class="table__filter table__filter-calls">
+              <p class="table__filter-text">Все звонки</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+            <div class="table__filter table__filter-source">
+              <p class="table__filter-text">Все источники</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+            <div class="table__filter table__filter-grades">
+              <p class="table__filter-text">Все оценки</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+            <div class="table__filter table__filter-error">
+              <p class="table__filter-text">Все ошибки</p>
+              <img src="./images/arrowdown.svg" alt="arrowdown" class="table__filter-dropdown">
+            </div>
+          </div>
+        </div>
+        <div class="table__container">
+          <div class="table__header">
+            <div class="table__header-element table__header-type">
+              <p class="table__header-text">Тип</p>
+            </div>
+            <div class="table__header-element table__header-time">
+              <p class="table__header-text">Время</p>
+            </div>
+            <div class="table__header-element table__header-employee">
+              <p class="table__header-text">Сотрудник</p>
+            </div>
+            <div class="table__header-element table__header-call">
+              <p class="table__header-text">Звонок</p>
+            </div>
+            <div class="table__header-element table__header-source">
+              <p class="table__header-text">Источник</p>
+            </div>
+            <div class="table__header-element table__header-grade">
+              <p class="table__header-text">Оценка</p>
+            </div>
+            <div class="table__header-element table__header-duration">
+              <p class="table__header-text">Длительность</p>
+            </div>
+          </div>
+          <div class="table__row">
+            <div class="table__row-type">
+              <img src="./images/incoming-blue.svg" alt="incoming-blue" class="table__row-type-icon">
+            </div>
+            <div class="table__row-time">
+              <p class="table__row-time-text">19:00</p>
+            </div>
+            <div class="table__header-employee">
+              <img src="./images/table-component-avatar.png" alt="avatar" class="table__header-employee-avatar">
+            </div>
+            <div class="table__row-call">
+              <p class="table__row-call-text">+7 (987) 567-17-12</p>
+            </div>
+            <div class="table__row-source">
+              <p class="table__row-source-text">Rabota.ru</p>
+            </div>
+            <div class="table__row-grade">
+              <img src="./images/green-dots.svg" alt="green-dots" class="table__row-grade-icon table__row-grade-icon--success">
+              <div class="table__row-grade--success">Отлично</div>
+            </div>
+            <div class="table__row-duration">
+              <p class="table__row-duration-text">12:06</p>
+            </div>
+          </div>
+          <div class="table__row">
+            <div class="table__row-type">
+              <img src="./images/incoming-blue.svg" alt="incoming-blue" class="table__row-type-icon">
+            </div>
+            <div class="table__row-time">
+              <p class="table__row-time-text">19:00</p>
+            </div>
+            <div class="table__header-employee">
+              <img src="./images/table-component-avatar.png" alt="avatar" class="table__header-employee-avatar">
+            </div>
+            <div class="table__row-call">
+              <p class="table__row-call-text">+7 (987) 567-17-12</p>
+            </div>
+            <div class="table__row-source">
+              <p class="table__row-source-text">Rabota.ru</p>
+            </div>
+            <div class="table__row-grade">
+              <img src="./images/green-dots.svg" alt="green-dots" class="table__row-grade-icon table__row-grade-icon--success">
+              <div class="table__row-grade--success">Отлично</div>
+            </div>
+            <div class="table__row-duration">
+              <p class="table__row-duration-text">12:06</p>
+            </div>
+          </div>
+          <div class="table__row">
+            <div class="table__row-type">
+              <img src="./images/incoming-blue.svg" alt="incoming-blue" class="table__row-type-icon">
+            </div>
+            <div class="table__row-time">
+              <p class="table__row-time-text">19:00</p>
+            </div>
+            <div class="table__header-employee">
+              <img src="./images/table-component-avatar.png" alt="avatar" class="table__header-employee-avatar">
+            </div>
+            <div class="table__row-call">
+              <p class="table__row-call-text">+7 (987) 567-17-12</p>
+            </div>
+            <div class="table__row-source">
+              <p class="table__row-source-text">Rabota.ru</p>
+            </div>
+            <div class="table__row-grade">
+              <img src="./images/green-dots.svg" alt="green-dots" class="table__row-grade-icon table__row-grade-icon--success">
+              <div class="table__row-grade--success">Отлично</div>
+            </div>
+            <div class="table__row-duration">
+              <p class="table__row-duration-text">12:06</p>
+            </div>
+          </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer"></footer>
+</body>
+
+</html>
